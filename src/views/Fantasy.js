@@ -68,7 +68,7 @@ class Fantasy extends Component {
 	}
 
 	componentDidMount() {
-		fetch("https://gist.githubusercontent.com/gokula-krishnan/837c5c42e92147d5200b193e12efd47b/raw/5f2fe54fc717fd8950e68db3ab2ee590d1e6d551/CT2025-player-points.json")
+		fetch("https://gist.githubusercontent.com/gokula-krishnan/837c5c42e92147d5200b193e12efd47b/raw/CT2025-player-points.json")
 		.then((res) => res.json())
 		.then((json) => {
 			this.setState({
@@ -573,7 +573,7 @@ class Fantasy extends Component {
 		<div>
 			<Navbar bg="dark" variant="dark">
 				<Navbar.Brand href="/">
-					IPL - 2024
+					CT - 2025
 				</Navbar.Brand>
 			  </Navbar>		  
 			  <BrowserRouter>		  
